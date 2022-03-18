@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot_20210821_013515_canva"
+    tools:context="com.example.fakarni.CalenderActivity">
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="assertive"
+        android:animateLayoutChanges="true"
+        android:soundEffectsEnabled="true"
+        app:abbreviationsBarColor="@color/DarkBlueAccent"
+        app:abbreviationsLabelsColor="@color/white"
+        app:anotherMonthsDaysLabelsColor="@color/grey"
+        app:datePicker="true"
+        app:daysLabelsColor="@color/DarkBlue"
+        app:eventsEnabled="true"
+        app:headerColor="@color/DarkBlue"
+        app:pagesColor="@color/DenseOrange"
+        app:selectionColor="@color/DarkBlue"
+        app:selectionLabelColor="@color/DenseOrange"
+        app:swipeEnabled="true"
+        app:type="classic"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/datePicker"
+        android:layout_width="0dp"
+        android:layout_height="370dp"
+        app:datePicker="true"
+        app:headerColor="@color/DarkBlue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:selectionColor="@color/DarkBlue"
+        app:todayLabelColor="@color/DarkBlue" />
+
+</RelativeLayout>

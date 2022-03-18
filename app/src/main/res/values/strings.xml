@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Taskati</string>
+    <string name="_00_00_pm">00 : 00 PM</string>
+    <string name="change">change</string>
+    <string name="task_name">Task name</string>
+    <string name="what_is_to_be_done">What is to be done?</string>
+    <string name="select_date">Select date</string>
+    <string name="due_date">Due date</string>
+    <string name="due_time">Due time</string>
+    <string name="select_time">Select time</string>
+    <string name="repeat_daily">Repeat daily</string>
+    <string name="write_your_notes">Write your notes</string>
+    <string name="notes">Notes</string>
+    <string name="login_text">Login</string>
+    <string name="textView1">What is your firstname ?</string>
+    <string name="textView2">What is your lastname ?</string>
+    <string name="textView3">Type any username</string>
+    <string name="textView4">Type any password</string>
+    <string name="textView5">Type same password</string>
+    <string name="textView6">Already have an account ?</string>
+
+
+</resources>
